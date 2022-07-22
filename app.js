@@ -54,6 +54,24 @@ const app = {
             path: './assets/music/song5.mp3',
             image: './assets/img/image5.jpg'
         },
+        {
+            name: 'Play Date',
+            singer: 'Melanie Martinez',
+            path: './assets/music/song6.mp3',
+            image: './assets/img/image6.jpg'
+        },
+        {
+            name: 'Summer Time Sadness',
+            singer: 'HaileyRowe',
+            path: './assets/music/song7.mp3',
+            image: './assets/img/image7.jpg'
+        },
+        {
+            name: 'Symphony',
+            singer: 'Clean Bandit ft. Zara Larsson',
+            path: './assets/music/song8.mp3',
+            image: './assets/img/image8.jpg'
+        }
     ],
     setConfig: function(key, value) {
         this.config[key] = value;
