@@ -27,39 +27,33 @@ const app = {
     songs: [{
             name: 'Bones',
             singer: 'Imagine Dragon',
-            path: './assets/music/bones-official-lyric-video.mp3',
-            image: './assets/img/bones.jpg'
+            path: './assets/music/song1.mp3',
+            image: './assets/img/image1.jpg'
         },
         {
             name: 'Thunder',
             singer: 'Imagine Dragon',
-            path: './assets/music/thunder.mp3',
-            image: './assets/img/thunder.jpg'
+            path: './assets/music/song2.mp3',
+            image: './assets/img/image2.jpg'
         },
         {
-            name: 'Bones',
-            singer: 'Imagine Dragon',
-            path: './assets/music/bones-official-lyric-video.mp3',
-            image: './assets/img/bones.jpg'
+            name: 'Once Upon A Time',
+            singer: 'Max Oazo ft. Moonessa',
+            path: './assets/music/song3.mp3',
+            image: './assets/img/image3.jpg'
         },
         {
-            name: 'Thunder',
-            singer: 'Imagine Dragon',
-            path: './assets/music/thunder.mp3',
-            image: './assets/img/thunder.jpg'
+            name: 'Here',
+            singer: 'Alessia Cara ',
+            path: './assets/music/song4.mp3',
+            image: './assets/img/image4.jpg'
         },
         {
-            name: 'Bones',
-            singer: 'Imagine Dragon',
-            path: './assets/music/bones-official-lyric-video.mp3',
-            image: './assets/img/bones.jpg'
+            name: 'Infinity',
+            singer: 'Jaymes Young',
+            path: './assets/music/song5.mp3',
+            image: './assets/img/image5.jpg'
         },
-        {
-            name: 'Thunder',
-            singer: 'Imagine Dragon',
-            path: './assets/music/thunder.mp3',
-            image: './assets/img/thunder.jpg'
-        }
     ],
     setConfig: function(key, value) {
         this.config[key] = value;
